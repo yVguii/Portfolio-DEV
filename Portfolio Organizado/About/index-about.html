@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="../Images/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../Images/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../Images/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="../Images/favicon_io/site.webmanifest">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles-about.css">
+    <title>Vitor Silva | Developer</title>
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="animated-bg"></div>
+    
+    <!-- Header -->
+    <header id="header">
+        <div class="container">
+            <nav>
+                <h2 class="logo">My Portf<span>olio</span></h2>
+                <ul class="nav-links">
+                    <li><a href="../Home/index.html"><i class="fas fa-home"></i> Home</a></li>
+                    <li><a href="../About/index-about.html" class="active"><i class="fas fa-user"></i> About</a></li>
+                    <li><a href="../Projects/index-proj.html"><i class="fas fa-code"></i> Projects</a></li>
+                    <li><a href="../Certificate/index-cert.html"><i class="fas fa-certificate"></i> Certificates</a></li>
+                    <li><a href="../Contact/index-cont.html"><i class="fas fa-envelope"></i> Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container">
+        <!-- About Section -->
+        <section id="about" class="card">
+            <div class="about-grid">
+                <div class="about-img">
+                    <img src="../About/images/Foto-About.jpeg" alt="Vitor Silva" class="profile-img">
+                    <div class="img-border"></div>
+                </div>
+                <div class="about-content">
+                    <h1 class="title">About me</h1>
+                    <h3 class="subtitle">Network Analyst & Web Developer</h3>
+                    <div class="about-text">
+                        <p>Network infrastructure and full-stack development specialist with hands-on experience in corporate systems. Currently in the first semester of Software Engineering studies, combining technical expertise with academic foundation.</p>
+                    </div>
+                    
+                    <!-- Info Tabs -->
+                    <div class="tabs">
+                        <div class="tab-header">
+                            <div class="tab-btn active" data-tab="experience">
+                                <i class="fas fa-briefcase"></i> Experience
+                            </div>
+                            <div class="tab-btn" data-tab="education">
+                                <i class="fas fa-graduation-cap"></i> Education
+                            </div>
+                        </div>
+                        <div class="tab-content active" id="experience">
+                            <ul>
+                                <li>
+                                    <span>2024 - Present</span>
+                                    <h4>Network Analyst</h4>
+                                    <p>NR Acampamentos</p>
+                                </li>
+                                <li>
+                                    <span>2025 - Present</span>
+                                    <h4>Web Developer</h4>
+                                    <p>Freelance</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="tab-content" id="education">
+                            <ul>
+                                <li>
+                                    <span>2025 - Present</span>
+                                    <h4>Software Engineering</h4>
+                                    <p>University of Taubaté</p>
+                                </li>
+                                <li>
+                                    <span>2021 - 2023</span>
+                                    <h4>IT Technical Course</h4>
+                                    <p>CEP Brazópolis</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="card">           
+            <div class="skills-container">
+                <div class="skills-intro">
+                    <h3><i class="fas fa-code"></i> Development Stack</h3>
+                    <p>I've mastered these technologies through academic projects, professional work, and personal exploration, allowing me to build innovative solutions.</p>
+                    <a href="../About/PDF/Currículo.pdf" download="Currículo.pdf" class="download-btn">DOWNLOAD CV <i class="fas fa-download"></i></a>
+                </div>
+                <div class="skills-grid">
+                    <!-- Languages -->
+                    <div class="skill-category">
+                        <h4><i class="fas fa-laptop-code"></i> Languages</h4>
+                        <div class="skill-items">
+                            <div class="skill-item" data-tooltip="HTML5">
+                                <img src="../images/html5.png" alt="HTML5">
+                            </div>
+                            <div class="skill-item" data-tooltip="CSS3">
+                                <img src="../images/css3.png" alt="CSS3">
+                            </div>
+                            <div class="skill-item" data-tooltip="JavaScript">
+                                <img src="../images/javascript.png" alt="JavaScript">
+                            </div>
+                            <div class="skill-item" data-tooltip="React">
+                                <img src="../images/react.png" alt="React">
+                            </div>
+                            <div class="skill-item" data-tooltip="Java">
+                                <img src="../images/java.png" alt="Java">
+                            </div>
+                            <div class="skill-item" data-tooltip="PHP">
+                                <img src="../images/php.png" alt="PHP">
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Tools -->
+                    <div class="skill-category">
+                        <h4><i class="fas fa-tools"></i> Tools</h4>
+                        <div class="skill-items">
+                            <div class="skill-item" data-tooltip="Figma">
+                                <img src="../images/figma.png" alt="Figma">
+                            </div>
+                            <div class="skill-item" data-tooltip="WordPress">
+                                <img src="../images/wordpress.png" alt="WordPress">
+                            </div>
+                            <div class="skill-item" data-tooltip="Wix">
+                                <img src="../images/wix.png" alt="Wix">
+                            </div>
+                            <div class="skill-item" data-tooltip="Shopfy">
+                                <img src="../images/shopfy.png" alt="Shopfy">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script-about.js"></script>
+</body>
+</html>

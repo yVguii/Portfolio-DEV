@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="../Images/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../Images/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../Images/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="../Images/favicon_io/site.webmanifest">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles-cont.css">
+    <title>Vitor Silva | Developer</title>
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="animated-bg"></div>
+    
+    <!-- Header -->
+    <header id="header">
+        <div class="container">
+            <nav>
+                <a href="#" class="logo">My Portf<span>olio</span></a>
+                
+                <ul class="nav-links">
+                    <li><a href="../Home/index.html"><i class="fas fa-home"></i> Home</a></li>
+                    <li><a href="../About/index-about.html"><i class="fas fa-user"></i> About</a></li>
+                    <li><a href="../Projects/index-proj.html"><i class="fas fa-code"></i> Projects</a></li>
+                    <li><a href="../Certificate/index-cert.html"><i class="fas fa-certificate"></i> Certificates</a></li>
+                    <li><a href="../Contact/index-cont.html" class="active"><i class="fas fa-envelope"></i> Contact</a></li>
+                </ul>
+                
+                <div class="hamburger">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="contact-container">
+        <div class="container">
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <h1>Contact Me</h1>
+                    <p>Fill out the form and I'll get back to you within 24 hours.</p>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>vitor.silva9605@gmail.com</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <span>+55 (35) 92001-1319</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Brazil, MG</span>
+                    </div>
+                </div>
+                
+                <form id="contact-form" class="contact-form" action="https://formsubmit.co/vitor.silva9605@gmail.com" method="POST">
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_template" value="table">
+                    <input type="hidden" name="_subject" value="New contact from portfolio">
+                    <input type="text" name="_honey" style="display:none">
+                    
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="your.email@example.com" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <input type="tel" id="phone" name="phone" placeholder="Phone (Optional)" maxlength="15">
+                    </div>
+                    
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Your message here..." rows="5" required></textarea>
+                    </div>
+                    
+                    <button type="submit" class="submit-btn">
+                        <span class="btn-text">Send Message</span>
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <script src="script-cont.js"></script>
+</body>
+</html>
